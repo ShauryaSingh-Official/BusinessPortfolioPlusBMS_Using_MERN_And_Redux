@@ -1,70 +1,106 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FrontEnd Part of our B2B Portfolio with smart manager (React + Redux)   
 
-## Available Scripts
+### **NOTE**
+1. **First Working model**
+1. Anyone has access to use the UI to know more about my skills now (I will add admin login functionallity in final application using sessions or JWT )
+1. I'm **currently working** on its BackEnd Part which will release soon
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## 🎓 &nbsp;Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A B2B business portfolio for
+Ladoo Gopal Ji manufacturers and suppliers .
+- It is also a smart business manager website which provides ease to
+the business owners/managers to maintain sell records and bill generation for the client with few clicks.
+- They can
+also maintain work records and worker salary receipt generation according to worker’s department.
+- Admin can print bills and receipts easily . 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## ✍️ &nbsp;Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Main or Home Page :-** It is the B2B portfolio which describes the organization.
 
-### `npm run build`
+1. **Admin Page :-** It is the main page of smart manager which provides various branches to manage data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Client Page :-** Provides client related operations such as - Client Bill generation with few click , show all sale records ,show sale records of particular client and add related data etc.
+Performs actual complex calculations based on type of client.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Worker Page :-** Provides client related operations such as - Worker Salary Receipt generation with few click , show all work records ,show work records of particular worker , show list of workers and add records related worker and work  etc.   
+ It performs smart calculations w.r.t. worker's department.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 &nbsp;Install and Run Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Follow Steps**
+- Fork or download the repo.
+- Run command in terminal
+>npm install
+- and 
+> npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Now, https://localhost:3000 will run this website at your own PC or system .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤔 &nbsp;Working 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The UI is quite simple and attractive. Anyone can make use of it.
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🔧 &nbsp;Technologies and Skills used - 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- Redux
+- CSS
+- HTML
+- JavaScript
+- JSX
+- UI Design
+- etc.
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 💬 &nbsp;Challenges faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+There are many challenges faced during the development some of these are as - 
+- Make application Responsive
+- Make UI more Attractive with modern approaches such as   
+  -  menu color change on scroll ,
+  -  overlay effects ,
+  -  animations ,
+  -  Adding map location with Google Maps and FAQ's Section developement
+  -  Make use of transitions and transformations 
 
-### Deployment
+- How to deal with various type of errors.
+- Share downloadable PDF file
+- Make complex home page designs and implement them.
+- etc . 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br/>
 
-### `npm run build` fails to minify
+## 💼 &nbsp;Credits
+The complete BMS is developed by Sourav Kumar (Shaurya) .
+<h3> 🤝🏻 Connect with Sourav Kumar via -  </h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+&nbsp; <a href="https://twitter.com/ShauryaSingh_SK" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/twitter.png" width="50" /></a>  
+&nbsp; <a href="https://www.facebook.com/skumar.varshney.507/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/facebook-new.png" width="50" /></a>  
+&nbsp; <a href="https://www.linkedin.com/in/imshauryasingh/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+&nbsp; <a href="mailto:souravk48560gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
+</p>
+
+
+<br><br>
+⭐️ From [ShauryaSingh-Official](https://github.com/ShauryaSingh-Official)
+
+   
