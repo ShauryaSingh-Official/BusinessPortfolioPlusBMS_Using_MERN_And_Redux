@@ -1,0 +1,87 @@
+
+
+/* //////////////////////////////////////////////////////////////////// */
+
+.admin-dashboard{
+  padding: 0 3rem;
+  margin: 3rem auto;
+  margin-top: 8rem;
+  min-height: 85vh;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 15px 0px rgba(0,50,0,0.5);
+  background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.admin-dashboard h2{
+  margin: 3rem 0;
+  border-bottom: 2px solid navy;
+    padding-bottom: 1.5rem;
+}
+
+.admin-dashboard hr{
+  margin: 0.5rem 0;
+}
+
+.admin-dashboard .admin-select-option{
+padding-bottom: 1rem;
+font-weight: 700;
+/* border: 1px solid green; */
+}
+
+.admin-option{
+  border: 1px solid navy;
+  height: 15rem;
+  display: flex;
+  max-width: 20rem;
+  flex: 1 1 15rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.admin-option:hover{
+transform: translateY(-12%);
+/* box-shadow: 0px 0px 10px 0px rgba(0,255,0,0.8); */
+background-color: rgba(0, 255,0,0.5) ;
+color: #fff;
+}
+
+.admin-option Link, .admin-option a{
+font-size: 2.2rem;
+position: absolute;
+height: 150px;
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.admin-options-container{
+/* border: 2px solid tomato; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+min-width: 21rem;
+max-width: 115rem;
+padding: 2rem;
+}
+
+@media(max-width:600px){
+  .container h2{
+    font-size: 1.8rem;
+  }
+  .container p , .container .admin-option{
+    font-size: 1.6rem;
+  }
+  Link{
+    font-size: 0.6rem;
+  }
+}

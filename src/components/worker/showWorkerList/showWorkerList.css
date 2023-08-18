@@ -1,0 +1,96 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-small{
+    font-size: 1.6rem;
+  }
+  .font-medium{
+    font-size: 2.2rem;
+  }
+  .font-large{
+    font-size: 3.5rem;
+  }
+
+
+
+  
+  
+
+
+
+.records-dashboard{
+    width: 100%;
+    background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh;
+    padding: 1rem 0;
+    
+}
+.records-area{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.records{
+    width: 100%;
+}
+
+.records th{
+    text-align: left;
+    padding-bottom: 0.2rem;
+}
+
+.bottom-line{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+/* ########################################################################################################################################################### */
+
+.records-header{
+    text-align: center;
+    background: #fff;
+    margin: 4.1rem 0;
+    padding: 0.8rem 0.4rem;
+}
+
+/* .records-dashboard hr{
+    margin: 0.5rem 0;
+} */
+
+/* .records-area{
+    margin-top: 0 4rem;
+} */
+
+.records-area h2 , .records-area p{
+    padding: 0.6rem 0;
+}
+
+
+
+@media(max-width:750px){
+    .font-small{
+        font-size: 1.2rem;
+    }
+  }
+  
+  @media(max-width:650px){
+    .font-small{
+        font-size: 1rem;
+    }
+  }
+
+  .gobackbtn{
+    margin-bottom: 1rem;
+  }

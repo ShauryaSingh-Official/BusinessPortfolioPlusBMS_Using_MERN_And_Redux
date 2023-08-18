@@ -1,0 +1,345 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-secondary{
+    border: 0.2rem solid #000;
+    background: rgb(53, 251, 5);
+      border-radius: 10rem;
+      width: 125px;
+      font-size: 1.4rem; 
+      font-weight: 700;
+      padding: 0.4rem 0.4rem;
+      /* box-shadow: 0px  0px 6px 0px rgba(170, 170, 170, 0.374); */
+      transition: all 0.1s ease-in;
+  }
+  .btn-secondary:hover{
+    transform: scale(1.1);
+    background: rgb(0, 255, 0);
+    box-shadow: 0px  0px 10px 0px rgba(170, 170, 170, 0.374);
+  }
+
+  .container{
+    max-width: 1200px;
+    width: 85%;
+    margin: 5rem auto;
+    background-color: #fff;
+  }
+  
+  .font-small{
+    font-size: 1.6rem;
+  }
+  .font-medium{
+    font-size: 2.2rem;
+  }
+  .font-large{
+    font-size: 3.5rem;
+  }
+
+
+a{
+  text-decoration: none;
+  color: #000;  
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+#home{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    z-index: -30;
+    background: transparent;
+}
+
+.homePage{
+    margin-top: 0;
+}
+
+#home .home-text{
+    flex: 1 1 500px;
+    margin: auto ;
+    padding: 5rem;
+    transform: translateX(-100%);
+    animation: home-text-animation 2s ease-in-out forwards;
+}
+@keyframes home-text-animation{
+    100%{
+        transform: translateX(0%);  
+    }
+}
+#home .home-text h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 4rem;
+
+}
+#home .home-text p{
+    color: #555;
+    margin: 0.8rem 0;
+    font-size: 2rem;
+}
+#home .home-text h4{
+    color: #666;
+    margin: 1.5rem 0;
+
+}
+
+
+#home .home-image{
+    flex: 1 1 500px;
+    margin: auto;
+    align-items: center;
+    transform: translateX(100%);
+    animation: home-text-animation 2s ease-in-out forwards;
+}
+@keyframes home-text-animation{
+    100%{
+        transform: translateX(0%);  
+    }
+}
+#home .home-image img{
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    display: block;
+    border-radius: 50rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,255,0,0.6);
+    
+}
+
+.knowMore{
+
+      width: 16rem;
+      font-size: 1.6rem; 
+      font-weight: 700;
+      padding: 0.5rem 0.6rem;
+}
+
+.box{
+    width: 950px;
+    height: 950px;
+    /* background: linear-gradient(rgba(0,255,0,0.6) , rgba(0,255,0,0.3)),rgba(0,255, 0, 0.4);
+     */
+    background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    display: block;
+    transform: rotate(55deg);
+    z-index: -25;
+    position: absolute;
+    top: -29%;
+    margin: auto 0;
+    border-radius: 15%;
+}
+
+
+
+/* _____________________________________________________            ABOUT           _____________________________________________________ */
+
+#about{
+    margin : 2rem 0;
+}
+#about .about-area{
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 2rem 1rem;
+}
+
+#about h4{
+    color: #666;
+}
+#about p{
+    color: #555;
+}
+
+
+/* ############################################################     CONTACT     ############################################################  */
+.contact-bg-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon-link{
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.icon-link-text{
+    display: block;
+    padding: 0.6rem 0;
+    font-weight: bold;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-links a{
+    text-align: center;
+    align-content: center;
+}
+
+.contact-method{
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    /* background-color: rgba(0,255, 0, 0.2); */
+    /* Linear gradient color (optional)*/
+    transform: translateY(+9%);
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-method:hover{
+    transform: translateY(-5%);
+}
+
+iframe{
+    box-shadow: 0px 0px 15px 0px rgba(100,100,100, 0.8);
+    margin: 3rem 0;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         Top Products        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+#top-products{
+    margin:3rem 0;
+    text-align: center;
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 3rem;
+    
+}
+
+.top-products-list{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.more-products-btn{
+    margin: 5rem;
+    margin-top: 1rem;
+    width: 20rem;
+    padding: 1rem 2rem;
+}
+
+.productImage img{
+    height: 100%;
+    width: 100%;
+                                                        /* object-position :; */
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+
+.productImage:hover img{
+    transform: scale(1.2);
+}
+.productImage{
+    height:20rem;
+    width: 20rem;
+    overflow: hidden;
+}
+
+
+.top-products-list .product{
+    width: 20rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
+}
+
+.top-product-text{
+    padding: 1rem;
+    text-align: left;
+    background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.top-product-text h3{
+    padding: 0.5rem 0;
+}
+
+
+/* ..............................................       higher-persons-view     ......................................... */
+
+.higher-persons-view{
+    margin: 3rem 0;
+}
+
+/* ________________________________________________         FAQs         ____________________________________________________*/
+#faq{
+    width: 100%;
+    margin: 3rem 0;
+    margin-bottom: 0;
+    padding: 2rem 0;
+    background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.faq-section{
+    padding: 2rem 3rem;
+    background: transparent;
+}
+
+.faq-heading{
+    margin: 1rem;
+}
+
+.faq-heading{
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+summary{
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.faq-area .faq-section details p{
+    padding-left: 3rem;
+    line-height: 2.5rem;
+    color: #555;
+}
+
+
+
+/* ----------------------------------       MEDIA QUERIES       ------------------------------------------- */
+
+
+@media (min-width :1120px){
+    #home{
+        height: 100vh;
+    }
+}
+
+
+/* RGB(0,255,132) */

@@ -1,0 +1,75 @@
+.dropdown-menu{
+    display: none;
+}
+
+.main-menu{  
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* right: 0; */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    font-size: 1.6em;
+    font-weight: 700;
+    /* background-color: transparent; */
+    min-width: 100%;
+    max-width: 1200px;
+    padding: 0 14%;
+    /* border: 1px solid green; */
+    transition : all 1s ease-in;
+}
+
+.dark{
+    /* background-color: #a8f0f5;   */
+    background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff !important;    
+    transition : all 1s ease-in;
+}
+
+.main-menu .logo{
+    font-size: 2.2rem;
+}
+
+.main-menu-options ul{
+    width: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.main-menu-options ul li, .main-menu-options ul Link{
+    transition: all 0.3s ease-in;
+}
+.main-menu-options ul li:hover{
+    color: rgb(53, 251, 5);
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+
+.main-menu-options ul Link:hover{
+    color: rgb(53, 251, 5);
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+.side-menu-options ul{
+    display: flex;
+    width: 25rem;
+    justify-content: space-evenly;   
+    
+}
