@@ -72,7 +72,8 @@ The UI is quite simple and attractive. Anyone can make use of it.
 
 ## 💬 &nbsp;Challenges faced
 
-There are many challenges faced during the development some of these are as - 
+There are many challenges faced during the development some of these are as -
+- How to deal with complex and major projects. ( LOC >= 2000+ )
 - Make application Responsive
 - Make UI more Attractive with modern approaches such as   
   -  menu color change on scroll ,
